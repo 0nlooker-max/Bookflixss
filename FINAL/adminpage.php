@@ -308,7 +308,7 @@ $orders = $pdo->query("SELECT o.order_id, u.username, o.total_amount, o.order_da
         </div>
 
         <!-- Summary Cards -->
-        <div class="row">
+        <div class="row ms-5">
             <div class="col-md-3">
                 <div class="card  text-black" data-bs-toggle="modal" data-bs-target="#dashboardModal" data-bs-whatever="categories">
                     <div class="card-body d-flex justify-content-between align-items-center">
@@ -331,8 +331,9 @@ $orders = $pdo->query("SELECT o.order_id, u.username, o.total_amount, o.order_da
                     </div>
                 </div>
             </div>
-        
-            <div class="col-md-3">
+        </div>
+        <div class="row ms-5">
+        <div class="col-md-3 mt-4">
                 <div class="card  text-black" data-bs-toggle="modal" data-bs-target="#dashboardModal" data-bs-whatever="sales_today">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <div>
@@ -344,7 +345,7 @@ $orders = $pdo->query("SELECT o.order_id, u.username, o.total_amount, o.order_da
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 mt-4 ">
                 <div class="card text-black" data-bs-toggle="modal" data-bs-target="#dashboardModal" data-bs-whatever="out_of_stock">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <div>
